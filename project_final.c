@@ -41,6 +41,7 @@ int main()
     printf("Bus Management System\n");
 
     int choice;
+    system("color 5");
     while (1)
     {
         system("cls");
@@ -104,7 +105,7 @@ void mgm()
 void addBus()
 {
     system("cls");
-
+  
     printf("\nAdd Bus No :");
     scanf("%d", &buses[bus_count].bus_no);
     printf("\nDriver's Name :");
